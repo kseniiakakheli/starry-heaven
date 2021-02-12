@@ -1,20 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans&display=swap');
 
 :root {
     --font-title: 'Lato', sans-serif;
     --font-paragraph: 'Open Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-body {
-    max-width: 1080px;
+.container {
+    max-width: 980px;
     margin: auto;
 }
 .subheader {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #FFFFFF;
-    color: #272F3C;
+    text-align: center;
+    height: 2rem;
+}
+.subheader  a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
 }
 .subheader ul {
     display: flex;
@@ -23,7 +29,8 @@ body {
     list-style-type: none;
 }
 .subheader ul img {
-     height: 2em;
+     height: 2rem;
+     padding-top: 0px;
      margin-left: 1rem;
 }
 nav {
@@ -32,6 +39,11 @@ nav {
     justify-content: space-between;
     font-family: var(--font-title);
     font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding-top: 2rem;
+    max-width: 980px;
+    margin: auto;
 }
 nav ul {
     display: flex;
@@ -44,41 +56,54 @@ nav ul {
 nav ul li {
     margin-left: 2rem;
 }
-a {
+nav a {
     text-decoration: none;
+    color: #FFFFFF;
+}
+nav a:hover{
+    color: #32BBCB;
 }
 a:visited {
     text-decoration: none;
 }
 header {
     background-image: url(/img/main.jpg);
-    background-size: 100%;
-    height: 500px;
+    background-size: cover;
 }
 .banner {
-    font-size: 0.5rem;
     color: #FFFFFF;
-
+    padding-bottom: 250px;
+    font-family: var(--font-paragraph);
 }
 .banner h1 {
     font-family: var(--font-title);
-    font-size: 4rem;
+    font-size: 82px;
     margin-bottom: 0;
+    margin-top: 250px;
 }
-h2 {
-    text-align: center;
+.banner h2 {
+    text-align: left;
+    font-size: 16px;
 }
 .overview {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+}
 .about {
     background-image: url(/img/place-about.jpg);
     color: #FFFFFF;
     text-align: center;
+    padding: 120px 35px 120px 35px;
 }
 .beginner {
     background-image: url(/img/place-begin.jpg);
     color: #FFFFFF;
     text-align: center;
+    padding: 120px 35px 120px 35px;
 }
