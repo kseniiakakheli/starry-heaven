@@ -69,7 +69,7 @@ a:visited {
     color: #FFFFFF;
 }
 header {
-    background-image: url(/img/main.jpg);
+    background-image: url(../img/main.jpg);
     background-size: cover;
 }
 .banner {
@@ -103,7 +103,7 @@ h2 {
     padding-bottom: 2rem;
 }
 .about {
-    background-image: url(/img/place-about.jpg);
+    background-image: url(../img/place-about.jpg);
     color: #FFFFFF;
     text-align: center;
     padding: 150px 35px 150px 35px;
@@ -112,7 +112,7 @@ h2 {
     height: 490px;
 }
 .beginner {
-    background-image: url(/img/place-begin.jpg);
+    background-image: url(../img/place-begin.jpg);
     color: #FFFFFF;
     text-align: center;
     padding: 150px 35px 150px 35px;
