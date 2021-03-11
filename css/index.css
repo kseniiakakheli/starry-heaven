@@ -69,7 +69,7 @@ a:visited {
     color: #FFFFFF;
 }
 header {
-    background-image: url(../img/main.jpg);
+    background-image: url(../img/main-image.jpg);
     background-size: cover;
 }
 .banner {
@@ -273,19 +273,35 @@ h3 {
     box-sizing: border-box;
     display: grid;   
 }
+.guidance .form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 input[type=text] {
   padding:10px;
   margin:10px 0; 
+  width: 100%;
 }
 input[type=tel] {
   padding:10px;
   margin:10px 0;
+  width: 100%;
 }
 input[type=email] {
   padding:10px;
   margin:10px 0;
+  width: 100%;
 }
-input[type=messaage] {
+textarea {
   padding:10px;
   margin:10px 0;
+  width: 100%;
+}
+footer {
+    background-color: #272F3C;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    height: 250px;
 }
