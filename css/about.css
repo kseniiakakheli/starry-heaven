@@ -103,7 +103,7 @@ header h1 {
 .teachers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 980px;
+    max-width: 1080px;
     margin: auto;
 }
 .teachers article {

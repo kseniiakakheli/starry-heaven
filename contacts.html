@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHD | Contacts</title>
-    <link rel="icon" href="img/vogue.jpg">
-</head>
-<body>
-    <header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SHD | Contacts</title>
+        <link rel="icon" href="img/vogue.jpg">
+        <link rel="stylesheet" href="css/contacts.css">
+    </head>
+    <body>
+        <header>
+            <div class="subheader">
+                <div class="tel">
+                    <a href="tel:+380995678497">+38 099 567 84 97</a>
+                </div>
+                <div class="social-media">
+                    <ul class="social-media-icon">
+                        <li>
+                            <a href="https://instagram.com/">
+                                <img src="img/icon-instagram.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com">
+                                <img src="img/icon-fb.png" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://youtube.com">
+                                <img src="img/icon-youtube.png" alt="Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <nav>
                 <div>
                     <a href="index.html">Starry Heaven</a>
@@ -28,77 +53,88 @@
                 </ul>
             </nav>
             <div>
-                <h1>Contacts</h1>
+                <h1>Contact Us</h1>
             </div>
         </header>
         <main>
+            <div class="container">
+            <div class="guidance">
+                <div>
+            <h2>Need guidance?</h2>
+            <h3>We will answer all your questions with great pleasure!</h3>
             <table>
                 <tr>
+                    <td class="first">Address</td>
+                    <td>Kyiv | Sichovykh Striltsiv str, 11</td>
+                </tr>
+                <tr>
+                    <td class="first">Hours</td>
+                    <td>Monday - Sunday: 14 pm - 11 pm</td>
+                </tr>
+                <tr>
+                    <td class="first">Contacts</td>
                     <td>
-                        <h2>Need guidance?</h2>
-                        <p>We will answer all your questions with great pleasure!</p>
-                        <table>
-                            <tr>
-                                <td>Address</td>
-                                <td>Kyiv | Sichovykh Striltsiv str, 11</td>
-                            </tr>
-                            <tr>
-                                <td>Hours</td>
-                                <td>Monday - Sunday: 14 pm - 11 pm</td>
-                            </tr>
-                            <tr>
-                                <td>Contacts</td>
-                                <td>
-                                    <p>+38 (099) 36 57 60</p>
-                                    <p>starryheaven@gmail.com</p>
-                                </td>
-                            </tr>
-                        </table>>
-                    </td>
-                    <td>
-                        <form>
-                    <label>
-                        <input type="text" name="name" placeholder="Name*" required>
-                    </label>
-                    <label>
-                        <input type="tel" id="phone" name="phone" placeholder="Phone number*" required>
-                    </label>
-                    <label>
-                        <input type="email" name="email" placeholder="Email*" required>
-                    </label>
-                    <label>
-                        <textarea name="message" placeholder="Message" required></textarea>
-                    </label>
-                    <br>
-                    <input type="Submit" value="Send message">
-                </form>
+                        <p>+38 (099) 36 57 60</p>
+                        <p>starryheaven@gmail.com</p>
                     </td>
                 </tr>
-            </table>
+            </table>    
+        </div>
+        <div>
+            <form>
+                <label>
+                    <input type="text" name="name" placeholder="Name*" required>
+                </label>
+                <label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone number*" required>
+                </label>
+                <label>
+                    <input type="email" name="email" placeholder="Email*" required>
+                </label>
+                <label>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                </label>
+                <br>
+                <input type="Submit" value="Send message">
+            </form>
+            </div>
+            </div>
+        </div>
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.2083609530887!2d30.5014406157315!3d50.45584457947604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce6773ba0acf%3A0xbef22ec1341bdb96!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCAxMSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1612740182470!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
+        </div>
         </main>
-    <footer>
+        <footer>
             <article>
                 <h3>Starry Heaven</h3>
                 <p>Join Starry Heaven Studio and we will offer you a great variety of dance classes meeting your individual needs and your busy schedule.</p>
             </article>
             <table>
                 <tr>
-                    <td><a href="about.html">About</a></td>
-                    <td><a href="pricing.html">Pricing</a></td>
-                    <td><a href="#events"></a>Events</a></td>
-                </tr>
-                <tr>
-                    <td><a href="classes.html"></a>Classes</a></td>
-                    <td><a href="classes.html"></a>Schedule</a></td>
-                    <td><a href="contacts.html"></a>Contacts</a></td>
-                </tr>
-            </table>
-            <div>
-                <h3>Follow Us</h3>
-            </div>
-        </footer>
-</body>
-</html>
+                    <td>
+                        <a href="about.html">About</a>
+                    </td>
+                    <td>
+                        <a href="pricing.html">Pricing</a>
+                    </td>
+                    <td>
+                        <a href="#events"></a>
+                        Events
+</a></td></tr>
+<tr>
+    <td>
+        <a href="classes.html"></a>
+        Classes
+</a></td>
+<td>
+    <a href="classes.html"></a>
+    Schedule
+</a></td>
+<td>
+    <a href="contacts.html"></a>
+    Contacts
+</a></td></tr></table>
+<div>
+    <h3>Follow Us</h3>
+</div>
+</footer></body></html>

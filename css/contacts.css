@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@300;700&display=swap');
+
+:root {
+    --font-title: 'Lato', sans-serif;
+    --font-paragraph: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+.subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    height: 2.5em;
+    font-family: var(--font-paragraph);
+    font-weight: 700;
+}
+.subheader  a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+.subheader ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.subheader ul img {
+     height: 2rem;
+     margin-left: 1rem;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: var(--font-title);
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding-top: 2rem;
+    max-width: 980px;
+    margin: auto;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: var(--font-paragraph);
+    font-weight: 300;
+    font-size: 14px;
+    list-style-type: none;
+}
+nav ul li {
+    margin-left: 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav a:hover{
+    color: #32BBCB;
+}
+a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header {
+    background: linear-gradient(rgb(25, 31, 39), #9DA3AD);
+    height: 450px;
+    text-align: center;
+    background-size: cover;
+}
+header h1 {
+    font-size: 84px;
+    font-family: var(--font-title);
+    color: #FFFFFF;
+    padding: 30px 40px 30px 40px;
+    font-weight: bold;
+}
+h2 {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #272F3C;
+    padding-top: 2rem;
+}
+.guidance {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #9DA3AD;
+    margin-top: 6rem;
+}
+.guidance h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #9DA3AD;
+}
+.guidance .first {
+    font-family: var(--font-title);
+    font-size: 18px;
+    font-weight: 700;
+    color: #272F3C;
+    padding-right: 2rem;
+}
+.guidance form {
+    background-color: #FFFFFF;
+    color: #272F3C;
+    padding: 60px 60px 60px 60px;
+    margin-left: 60px;
+    box-shadow: 2px 2px 2px 3px whitesmoke;
+    box-sizing: border-box;
+    display: grid;   
+}
+.guidance .form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+input[type=text] {
+  padding:10px;
+  margin:10px 0; 
+  width: 100%;
+}
+input[type=tel] {
+  padding:10px;
+  margin:10px 0;
+  width: 100%;
+}
+input[type=email] {
+  padding:10px;
+  margin:10px 0;
+  width: 100%;
+}
+textarea {
+  padding:10px;
+  margin:10px 0;
+  width: 100%;
+}
+.map {
+  margin-top: 4rem;
+}
