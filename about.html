@@ -5,9 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SHD | About</title>
         <link rel="icon" href="img/vogue.jpg">
+        <link rel="stylesheet" href="css/about.css">
     </head>
     <body>
         <header>
+            <div class="subheader">
+                <div class="tel">
+                    <a href="tel:+380995678497">+38 099 567 84 97</a>
+                </div>
+                <div class="social-media">
+                    <ul class="social-media-icon">
+                        <li>
+                            <a href="https://instagram.com/">
+                                <img src="img/icon-instagram.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com">
+                                <img src="img/icon-fb.png" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://youtube.com">
+                                <img src="img/icon-youtube.png" alt="Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <nav>
                 <div>
                     <a href="index.html">Starry Heaven</a>
@@ -32,16 +57,21 @@
             </div>
         </header>
         <main>
-            <div class="short story">
-                <img src="img/place-about.jpg" alt="dancers">
-                <img src="img/place-begin.jpg" alt="dancers">
-                <img src="img/place-price.jpg" alt="dancers">
-                <img src="img/main.jpg" alt="dancers">
-                <h3>Our short story</h3>
-                <p>In 2018, student Kseniia suggested her own dream of founding a dance studio. Create space where artists will feel themselves confident and inspired. So, ready for changes and recognized that her skills, expertise, and passion would let her turn dream into reality. The Starry Heaven dance studio opened its doors in 2020.</p>
+            <div class="container">
+            <div class="short-story">
+                <div class="story-img">
+                    <img src="img/place-about.jpg" alt="dancers">
+                    <img src="img/place-begin.jpg" alt="dancers">
+                    <img src="img/place-price.jpg" alt="dancers">
+                    <img src="img/main.jpg" alt="dancers">
+                </div>
+                <div>
+                    <h2>Our short story</h2>
+                    <p>In 2018, student Kseniia suggested her own dream of founding a dance studio. Create space where artists will feel themselves confident and inspired. So, ready for changes and recognized that her skills, expertise, and passion would let her turn dream into reality. The Starry Heaven dance studio opened its doors in 2020.</p>
+                </div>
             </div>
+            <h2>Meet our team</h2>
             <div class="teachers">
-                <h2>Meet our team</h2>
                 <article>
                     <img src="img/teacher.jpeg" alt="teacher">
                     <h4>Kseniia Kakheli</h4>
@@ -59,27 +89,37 @@
                 </article>
             </div>
             <div class="quote">
+                <img src="img/01-VOGUING.jpg">
                 <h2>Meet yourself</h2>
+                <p>Starry Heaven consists of dancers from all walks of life. They are ingrained in training, based on self-study and inspired by verity and opportunity. 
+Dance is a system of self-instruction. We view connection with each other in this amazing adventure as a way to a deeper connection with ourselves, and everything we’ve done to help promote those connections. We achieve this through movements, music, and stillness.
+                </p>
+
             </div>
             <div class="guidance">
-                <h2>Need Guidance?</h2>
-                <h3>We will answer all your questions with great pleasure!</h3>
-                <form>
-                    <label>
-                        <input type="text" name="name" placeholder="Name*" required>
-                    </label>
-                    <label>
-                        <input type="tel" id="phone" name="phone" placeholder="Phone number*" required>
-                    </label>
-                    <label>
-                        <input type="email" name="email" placeholder="Email*" required>
-                    </label>
-                    <label>
-                        <textarea name="message" placeholder="Message" required></textarea>
-                    </label>
-                    <br>
-                    <input type="Submit" value="Send message">
-                </form>
+    <div class="columns">
+        <div></div>
+    <form>
+        <h2>Need Guidance?</h2>
+    <h3>We will answer all your questions with great pleasure!</h3>
+    <div class="form">
+        <label>
+            <input type="text" name="name" placeholder="Name*" required>
+        </label>
+        <label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone number*" required>
+        </label>
+        <label>
+            <input type="email" name="email" placeholder="Email*" required>
+        </label>
+        <label>
+            <textarea name="message" placeholder="Message" required></textarea>
+        </label>
+        <input type="Submit" value="Send message">
+    </div>
+    </form>
+    </div>
+    </div>
             </div>
         </main>
         <footer>
@@ -98,19 +138,23 @@
                     <td>
                         <a href="#events"></a>
                         Events
+
 </a></td></tr>
 <tr>
     <td>
         <a href="classes.html"></a>
         Classes
+
 </a></td>
 <td>
     <a href="classes.html"></a>
     Schedule
+
 </a></td>
 <td>
     <a href="contacts.html"></a>
     Contacts
+
 </a></td></tr></table>
 <div>
     <h3>Follow Us</h3>
