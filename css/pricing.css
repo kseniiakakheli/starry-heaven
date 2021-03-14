@@ -5,19 +5,27 @@
     --font-paragraph: 'Open Sans', sans-serif;
 }
 .container {
-    max-width: 1180px;
+    max-width: 1080px;
+    margin: auto;
+}
+.container {
+    max-width: 1080px;
     margin: auto;
 }
 .subheader {
+    background-color: #FFFFFF;
+}
+.subheader-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: #FFFFFF;
+    justify-content: space-between;
+    max-width: 1080px;
     text-align: center;
     font-size: 14px;
     height: 2.5em;
     font-family: var(--font-paragraph);
     font-weight: 700;
+    margin: auto;
 }
 .subheader  a {
     text-decoration: none;
@@ -28,6 +36,7 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    margin: 0%;
 }
 .subheader ul img {
      height: 2rem;
@@ -42,7 +51,7 @@ nav {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     padding-top: 2rem;
-    max-width: 980px;
+    max-width: 1080px;
     margin: auto;
 }
 nav ul {
@@ -87,45 +96,67 @@ h2 {
     font-size: 42px;
     color: #272F3C;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .pricing {
+    text-align: center;
+   
+}
+.price-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1080px;
-    margin: auto;
-    font-family: var(--font-paragraph);
-    font-size: 16px;
-    padding-top: 4rem;
 }
-.pricing article {
+.price-list .center-article {
+   position: relative;
+   margin-top: 6rem;
+}
+.price-list article {
     background-color: white;
     box-shadow: 2px 2px 2px 3px whitesmoke;
     padding: 35px 50px 35px 50px;
     font-family: var(--font-paragraph);
     font-size: 14px;
     text-align: center;
-    margin-left: 2rem;
+    margin-bottom: 25px;
+    margin-top: 6rem;
 }
-.pricing h3 {
-    font-family: var(--font-title);
-    color: #32BBCB;
-    font-size: 22px;
-}
-.pricing p {
-    font-weight: 700;
-}
-button {
+.buttons button {
     color: #FFFFFF;
     background-color: #32BBCB;
+    border: 0;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
+    margin: auto;
     font-weight: lighter;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    box-shadow: 2px 2px 2px 3px rgb(240, 237, 237);
+    border-radius: 3px;
+    font-family: var(--font-title);
+    font-size: 1rem;
+    margin: 1rem 0 2rem 0;
 }
-button a {
+.buttons button a {
     text-decoration: none;
+}
+.section {
+    background-image: url(../img/bg-section.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section h3 {
+    font-family: var(--font-title);
+    font-weight: 400;
+    color: #272F3C;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 4rem;
+}
+.section h4 {
+    font-family: var(--font-paragraph);
+    font-weight: 300;
+    color: #9DA3AD;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
 }
 .options {
     display: grid;
@@ -134,8 +165,10 @@ button a {
     font-family: var(--font-paragraph);
     color: #9DA3AD;
     padding-top: 4rem;
+    max-width: 1080px;
+    margin: auto;
 }
-.options h3 {
+.section .options h3 {
     font-family: var(--font-title);
     color: #32BBCB;
     font-size: 22px;
@@ -149,24 +182,18 @@ button a {
     text-align: center;
     margin-left: 2rem;
 }
-h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: #9DA3AD;
-    font-size: 18px;
-    text-align: center;
-}
+
 .teacher article {
     background-color: white;
     box-shadow: 2px 2px 2px 3px whitesmoke;
-    padding: 35px 50px 35px 50px;
+    padding: 1rem 0 3rem 0;
     font-family:  'Open Sans', sans-serif;
     font-size: 16px;
     text-align: center;
-    margin-left: 2rem;
     color: #9DA3AD;
+    justify-content: center;
 }
-.teacher h3 {
+.section .teacher h3 {
     font-family: var(--font-title);
     color: #32BBCB;
     font-size: 22px;
