@@ -74,7 +74,7 @@ a:visited {
     color: #FFFFFF;
 }
 header {
-    background: linear-gradient(rgb(25, 31, 39), #9DA3AD);
+    background: linear-gradient(rgb(22, 28, 37), rgb(133, 141, 155));
     height: 450px;
     text-align: center;
     background-size: cover;
@@ -124,6 +124,7 @@ h2 {
     box-sizing: border-box;
     display: grid;   
     font-family: var(--font-paragraph);
+    height: 30rem;
 }
 .guidance .form {
     display: grid;
@@ -131,42 +132,47 @@ h2 {
 }
 input[type=text] {
   padding:12px;
-  margin:10px 0; 
+  margin: 10px 0; 
   width: 100%;
   background-color: rgba(192, 198, 209, 0.582);
-  color: #9DA3AD;;
+  color: rgb(200, 204, 211);
   font-size: 14px;
   border: 0px;
   border-radius: 3px;
+  font-family: var(--font-paragraph);
+
 }
 input[type=tel] {
   padding:10px;
   width: 100%;
   background-color: rgba(192, 198, 209, 0.582);
-  color: #9DA3AD;;
+  color: rgb(200, 204, 211);
   font-size: 14px;
   border: 0px;
   border-radius: 3px;
+  font-family: var(--font-paragraph);
 }
 input[type=email] {
   padding:10px;
   margin:10px 0;
   width: 100%;
   background-color: rgba(192, 198, 209, 0.582);
-  color: #9DA3AD;;
+  color: rgb(200, 204, 211);
   font-size: 14px;
   border: 0px;
   border-radius: 3px;
+  font-family: var(--font-paragraph);
 }
 textarea {
   padding:10px;
   margin:10px 0;
   width: 100%;
   background-color: rgba(192, 198, 209, 0.582);
-  color: #9DA3AD;;
+  color: rgb(200, 204, 211);
   font-size: 14px;
   border: 0px;
   border-radius: 3px;
+  font-family: var(--font-paragraph);
 }
 input[type=submit] {
     color: #FFFFFF;
@@ -175,8 +181,11 @@ input[type=submit] {
     padding: 10px 0px 10px 0px;
     margin-top: 10px;
     font-weight: lighter;
-    border-color: #32BBCB;
-    font-family: var(--font-paragraph);
+    font-family: var(--font-title);
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 3px rgb(240, 237, 237);
 }
 input[type=submit] a {
     text-decoration: none;

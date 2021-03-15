@@ -74,7 +74,7 @@ a:visited {
     color: #FFFFFF;
 }
 header {
-    background: linear-gradient(rgb(25, 31, 39), #9DA3AD);
+    background: linear-gradient(rgb(22, 28, 37), rgb(133, 141, 155));
     height: 450px;
     text-align: center;
 }

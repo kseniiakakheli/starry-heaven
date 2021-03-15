@@ -74,7 +74,7 @@ a:visited {
     color: #FFFFFF;
 }
 header {
-    background: linear-gradient(rgb(25, 31, 39), #9DA3AD);
+    background: linear-gradient(rgb(22, 28, 37), rgb(133, 141, 155));
     height: 450px;
     text-align: center;
 }
@@ -191,6 +191,7 @@ input[type=text] {
   font-size: 14px;
   border: 0px;
   border-radius: 3px;
+  font-family: var(--font-paragraph);
 }
 input[type=tel] {
   padding:10px;
@@ -200,6 +201,7 @@ input[type=tel] {
   font-size: 14px;
   border: 0px;
   border-radius: 3px;
+   font-family: var(--font-paragraph);
 }
 input[type=email] {
   padding:10px;
@@ -210,6 +212,7 @@ input[type=email] {
   font-size: 14px;
   border: 0px;
   border-radius: 3px;
+   font-family: var(--font-paragraph);
 }
 textarea {
   padding:10px;
@@ -220,6 +223,7 @@ textarea {
   font-size: 14px;
   border: 0px;
   border-radius: 3px;
+   font-family: var(--font-paragraph);
 }
 input[type=submit] {
     color: #FFFFFF;
